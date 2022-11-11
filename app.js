@@ -4,6 +4,13 @@ const main = document.querySelector("main");
 const bullets = document.querySelectorAll(".bullets span");
 const images = document.querySelectorAll(".image");
 
+
+function cadastrar(){
+    alert("Sign up successful");
+    
+}
+
+
 inputs.forEach((inp) => {
 inp.addEventListener("focus", () => {
     inp.classList.add("active");
@@ -37,3 +44,4 @@ this.classList.add("active");
 bullets.forEach((bullet) => {
 bullet.addEventListener("click", moveSlider);
 });
+
